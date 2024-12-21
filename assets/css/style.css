@@ -1,0 +1,52 @@
+.body {
+    background-color: lightblue
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+  }
+  .footer .form-control {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  .footer .btn-signup {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .footer .footer-logo img {
+    width: 150px;
+  }
+  .footer .footer-social a {
+    margin-right: 10px;
+  }
+
+  /* Adjust the font size of the copyright text */
+  .footer .copyright {
+    font-size: 0.8rem;  /* Smaller size */
+    margin-top: 10px;   /* Add margin to space out from other text */
+  }
+
+  /* Ensure that the copyright text is the same width as "GALLERY" link */
+  .footer .quick-links li {
+    display: inline-block; /* Makes the links align horizontally */
+    padding-right: 20px;   /* Adjust padding to match width of 'GALLERY' */
+  }
+
+  footer .col-md-4 ul li a {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: justify;
+  }
+  
