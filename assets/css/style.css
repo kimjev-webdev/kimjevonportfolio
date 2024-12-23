@@ -12,7 +12,7 @@
 
 }
 
-.footer a {
+.footer .a {
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@
 }
   
   /* Styling for links in the right column of the footer */
-  footer .col-1 a {
+  footer a {
     text-decoration: none;
     text-align: end; /* Remove underline from links */
     color: white; /* Text color for links */
@@ -44,7 +44,7 @@
   }
   
   /* Hover effect for the links */
-  footer .col-1 a:hover {
+  footer  a:hover {
     color: #8067d8; /* Change text color on hover */
   }
   
