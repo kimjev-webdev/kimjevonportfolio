@@ -1,5 +1,26 @@
+.navbar-nav a:hover {
+color: #8067d8;
+}
+
 .slogan {
+  padding: 20px;
   text-align: center;
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+.slogan .btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.slogan .btn:hover {
+  color: #8067d8;
 }
 
 .footer {
@@ -12,7 +33,7 @@
 
 }
 
-.footer .a {
+.footer a {
     text-decoration: none;
 }
 
@@ -25,6 +46,21 @@
   border: none;                   /* No border */
   outline: none;                  /* No outline on focus */
   color: white;              /* Inherit the text color */
+  font-family: "Montserrat", san-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.footer .form-control {
+  font-family: "Montserrat", san-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #8067d8;
+}
+}
 }
 
 .footer .btn:hover,
@@ -35,23 +71,36 @@
   
   /* Styling for links in the right column of the footer */
   footer a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
-    text-align: end; /* Remove underline from links */
+    text-align: center; /* Remove underline from links */
     color: white; /* Text color for links */
     font-size: 15px; /* Font size for links */
     padding: 0px 0px 0px 0px; /* Padding for spacing out links */
     display: block; /* Make each link a block-level element */
+
   }
   
   /* Hover effect for the links */
   footer  a:hover {
     color: #8067d8; /* Change text color on hover */
   }
+
+  
   
   /* Copyright text style */
   footer .col-1 p {
-    font-size: x-small; /* Smaller font size for copyright text */
+    font-size: xx-small; /* Smaller font size for copyright text */
     text-align: center; /* Center-align the text */
     margin-bottom: 0; /* Remove bottom margin */
+    font-family: "Montserrat", san-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
+  
+  
   
